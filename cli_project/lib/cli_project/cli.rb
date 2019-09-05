@@ -17,11 +17,17 @@ module CliProject
        while @input != "exit" && @input != "quit"
         @input = gets.chomp 
         if @input == menu
-          
+          menu
           elsif @input == "1"
-          
+          puts "ingredients or method to iterate across recipes to pull all available recipes to pull from.  using @@all ?"
           elsif @input == "2"
+          puts "something else"
+          elsif @input == "exit" || @input == "quit"
+          
+        else puts "whoops, didn't understand that.  try typing menu to see list of options"
+        end
       end
+      puts "Thanks for using our CLI! Happy cooking!"
      end
          
     def menu
