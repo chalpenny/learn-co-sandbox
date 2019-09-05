@@ -42,6 +42,8 @@ module CliProject
      end
      
      #def print_ingreient
+     #interate over recipes to get all ingreients to choose from
+     #end
      
      
      
