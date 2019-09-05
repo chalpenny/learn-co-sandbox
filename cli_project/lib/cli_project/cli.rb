@@ -20,6 +20,8 @@ module CliProject
           menu
           elsif @input == "1"
           puts "ingredients or method to iterate across recipes to pull all available recipes to pull from.  using @@all ?"
+         #these can be managed by a method as well, then defined down below
+         #print ingredients
           elsif @input == "2"
           puts "something else"
           elsif @input == "exit" || @input == "quit"
@@ -38,6 +40,13 @@ module CliProject
        or type "exit" or "quit" at any time to exit the program.
        LIST
      end
+     
+     #def print_ingreient
+     #interate over recipes with index+1 to get all ingreients to choose from
+    #48 min mark of api video
+     #end
+     
+     
      
       #instructions - enter an ingredient(s), keywords, 
       #return a list of recipes including that ingredient
