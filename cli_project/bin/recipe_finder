@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "bundler"
+require "bundler/setup"
+require_relative "../lib/cli_project"
+
+
+CliProject::Recipe.new.start
